@@ -1,18 +1,22 @@
 export default class Stack {
 	
   #items;  // #表此類別中私有的物件，只能在此類別中使用
+  #maxSize; // 預設最大容量
 
   constructor() {
     
-    this.#items = [];  
+    this.#items = []; 
+    this.#maxSize = maxSize;
   }
 
   // 在 stack 頂部加入元素i
-  push(element) {
-    this.#items.push(element); //使用push來添加元素
-
-  }
-
+   push(element) {
+        if (this.size() >= this.#maxSize) {
+            throw new Error("Stack overflow"); // 超過最大容量
+        }
+        this.#items.push(element); //使用push來添加元素
+    }
+	
   // 移除並回傳 stack 頂部的元素
   pop() {
 	if (this.isEmpty()) {
