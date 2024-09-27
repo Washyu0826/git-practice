@@ -14,6 +14,9 @@ export default class Stack {
         if (this.size() >= this.#maxSize) {
             throw new Error("Stack overflow"); // 超過最大容量
         }
+	if (typeof element !== 'number') {
+        throw new Error("Type Error"); // 元素類型限制
+    }
         this.#items.push(element); //使用push來添加元素
     }
 	
