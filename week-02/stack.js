@@ -1,5 +1,3 @@
-// stack.js
-// 完成以下 TODO 的部分，並且以 Module 的方式匯出 (ESM)
 export default class Stack {
 	
   #items;  // #表此類別中私有的物件，只能在此類別中使用
@@ -11,16 +9,16 @@ export default class Stack {
 
   // 在 stack 頂部加入元素i
   push(element) {
-    this.#items.push(element);
+    this.#items.push(element); //使用push來添加元素
 
   }
 
   // 移除並回傳 stack 頂部的元素
   pop() {
 	if (this.isEmpty()) {
-        return ("Empty");
+        return ("Empty");       
       }
-      return this.#items.pop();
+      return this.#items.pop(); //使用pop來移除元素
   }
 
   // 回傳 stack 頂部的元素，但不移除它
@@ -28,7 +26,7 @@ export default class Stack {
     if (this.isEmpty()) {
         return ("Empty");
       }
-      return this.#items[this.#items.length-1];
+      return this.#items[this.#items.length-1]; 
   }
 
   // 檢查 stack 是否為空
