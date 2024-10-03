@@ -28,7 +28,7 @@
 | 導出模組的方式   | module.exports = value             | export default value                |
 | 加載方式        | 同步	           | 非同步              |
 | 檔案擴展名        | 通常使用 .js             | 通常使用 .js              |
-| 樹搖（Tree Shaking）        | 不支援           | 支援                |
+|（Tree Shaking）        | 不支援           | 支援                |
 | 環境支持       | Node.js及舊瀏覽器             | Node.js及當今瀏覽器                |
 
 ### Q6 localhost 是什麼？
