@@ -1,5 +1,3 @@
-require("dotenv").config(); // 加載 dotenv 環境變數
-
 const express = require("express");
 const app = express();
 const port = process.env.PORT || 3000;
