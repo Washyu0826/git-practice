@@ -10,6 +10,10 @@ app.listen(port, () => {
   console.log(`Server is listening on port ${port}`);
 });
 
-// cmd : $env:PORT=4000
-// cmd : node app.js
-// Server is listening on port 4000
+/*
+PS D:\NodeJS> node app.js
+Server is listening on port 3000
+PS D:\NodeJS> $env:PORT=4000
+PS D:\NodeJS> node app.js
+Server is listening on port 4000
+*/
