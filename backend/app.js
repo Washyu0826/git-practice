@@ -9,3 +9,7 @@ app.get("/", (req, res) => {
 app.listen(port, () => {
   console.log(`Server is listening on port ${port}`);
 });
+
+// cmd : $env:PORT=4000
+// cmd : node app.js
+// Server is listening on port 4000
