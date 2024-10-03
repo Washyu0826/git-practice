@@ -15,7 +15,18 @@
 ### Q4 那些檔案要放上github?
 
 放: `app.js`:程式基本結構/`package.json`:專案原始版本和數據的內容/source code/配置檔/測試檔
+
 不放:`.env`/`node_modules`
 
+判斷依據:其他編輯者是否能憑藉相關資訊完成開發，一些個人化設置和訊息不用上傳
 
+### Q5 CJS vs ESM 的比較
 
+| 特性            | CommonJS (CJS) |  ES Modules (ESM) |
+|-----------------|----------------|-------------------|
+| 引入模組的方式   |  const module = require('module')  | import module from 'module'               |
+| 導出模組的方式   | module.exports = value             | export default value                |
+| 加載方式        | 同步	           | 非同步              |
+| 檔案擴展名        | 通常使用 .js             | 通常使用 .js              |
+| 樹搖（Tree Shaking）        | 不支援           | 支援                |
+| 環境支持       | Node.js及舊瀏覽器             | Node.js及當今瀏覽器                |
