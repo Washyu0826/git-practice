@@ -14,5 +14,8 @@
 
 ### Q4 那些檔案要放上github?
 
+放: `app.js`:程式基本結構/`package.json`:專案原始版本和數據的內容/source code/配置檔/測試檔
+不放:`.env`/`node_modules`
+
 
 
