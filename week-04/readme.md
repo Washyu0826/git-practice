@@ -1,6 +1,6 @@
 `/etc：` "et cetera" 的縮寫，通常存放系統全局配置檔案和設定檔。
 
-ex:網路配置（/etc/network）、用戶帳號資料（/etc/passwd）、服務配置檔案（/etc/ssh/sshd_config）。
+ex: 網路配置（/etc/network）、用戶帳號資料（/etc/passwd）、服務配置檔案（/etc/ssh/sshd_config）。
 
 `/var：`  通常存放經常變動的資料。
 
