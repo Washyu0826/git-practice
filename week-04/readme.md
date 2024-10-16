@@ -1,28 +1,28 @@
-`/etc：` "et cetera" 的縮寫，通常存放系統全局配置檔案和設定檔。
+`/etc`: "et cetera" 的縮寫，通常存放系統全局配置檔案和設定檔。
 
 ex: 網路配置（/etc/network）、用戶帳號資料（/etc/passwd）、服務配置檔案（/etc/ssh/sshd_config）。
 
-`/var：`  通常存放經常變動的資料。
+`/var`:  通常存放經常變動的資料。
 
 ex：系統運行中的日誌檔案（/var/log）、郵件隊列、暫存檔案、排程任務等。資料可能隨時間變長。
 
-`/boot：` 通常存放包含與系統啟動有關的檔案。
+`/boot`: 通常存放包含與系統啟動有關的檔案。
 
 ex: Linux 核心映像檔（vmlinuz）和引導載入器（如 grub 的配置檔案）。這些檔案在系統啟動過程中被用來載入作業系統的kernel。
 
-`$PATH 環境變數:` 是系統搜尋執行檔路徑的列表。當你在terminal輸入一個指令時，系統會按照 $PATH 指定的路徑順序去搜尋這個指令的執行檔案。
+`$PATH 環境變數`: 是系統搜尋執行檔路徑的列表。當你在terminal輸入一個指令時，系統會按照 $PATH 指定的路徑順序去搜尋這個指令的執行檔案。
 
 ex: 執行 ls，系統會在 $PATH 定義的目錄中找尋 ls 的程式。
 
-`which 指令：` 用來顯示某命令執行檔案的絕對路徑。它會依據當前的 $PATH 環境變數，找出命令實際路徑。
+`which 指令`: 用來顯示某命令執行檔案的絕對路徑。它會依據當前的 $PATH 環境變數，找出命令實際路徑。
 
 ex: 輸入 which python 會顯示 Python 執行檔的路徑。
 
 ### 我的 public IP : 3.106.170.238
 
-**Instance type** 指的是雲端 instance 的硬體配置（ex: CPU、記憶體、儲存空間、網路能力）。
+**Instance type: 指的是雲端 instance 的硬體配置（ex: CPU、記憶體、儲存空間、網路能力）**
 
-**Nginx** 是一個高效能的開源 Web 伺服器與反向代理，能處理 HTTP、HTTPS 以及 TCP/UDP 協議。
+**Nginx: 是一個高效能的開源 Web 伺服器與反向代理，能處理 HTTP、HTTPS 以及 TCP/UDP 協議**
 
 用途： 
 
@@ -32,7 +32,7 @@ ex: 輸入 which python 會顯示 Python 執行檔的路徑。
 
 特性： 非同步事件驅動架構、低記憶體佔用、負載平衡等
 
-**pm2** 是 Node.js 應用程式的進程管理工具
+**pm2: 是 Node.js 應用程式的進程管理工具**
 
 用途：
 
@@ -52,7 +52,7 @@ ex: 輸入 which python 會顯示 Python 執行檔的路徑。
 
 forever 適合簡單的 Node.js 應用程式，不需要太多的進程管理功能，安裝與使用都相對簡單。
 
-**proxy** 是在客戶端和伺服器之間充當中介的機制。
+**proxy: 是在客戶端和伺服器之間充當中介的機制**
 
 為什麽要透過 Nginx 來 proxy 到 Express 開發的 Web Server?
 
