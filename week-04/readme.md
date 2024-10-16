@@ -94,7 +94,7 @@ forever 適合簡單的 Node.js 應用程式，不需要太多的進程管理功
            root /usr/share/nginx/html;
        }
    }
-```nginx
+nginx```
 
 **7. Security Group:是一組防火牆規則，用來控制虛擬機、EC2 等雲端資源的流量，可以定義允許哪些 IP 和網路協議（如 HTTP, SSH）進入和離開伺服器。**
 
