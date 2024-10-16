@@ -75,7 +75,25 @@ forever 適合簡單的 Node.js 應用程式，不需要太多的進程管理功
 
 **6. Nginx設定檔**
 
+server {
 
+    listen 80;
+    server_name 3.106.170.238;
+
+    location / {
+        proxy_pass http://localhost:3000;
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection 'upgrade';
+        proxy_set_header Host $host;
+        proxy_cache_bypass $http_upgrade;
+    }
+
+    error_page 500 502 503 504 /50x.html;
+    location = /50x.html {
+        root /usr/share/nginx/html;
+    }
+}
 
 **7. Security Group:是一組防火牆規則，用來控制虛擬機、EC2 等雲端資源的流量，可以定義允許哪些 IP 和網路協議（如 HTTP, SSH）進入和離開伺服器。**
 
