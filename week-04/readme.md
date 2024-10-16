@@ -20,9 +20,9 @@ ex: 輸入 which python 會顯示 Python 執行檔的路徑。
 
 ### 我的 public IP : 3.106.170.238
 
-*Instance type*  指的是雲端 instance 的硬體配置（ex: CPU、記憶體、儲存空間、網路能力）。
+**Instance type** 指的是雲端 instance 的硬體配置（ex: CPU、記憶體、儲存空間、網路能力）。
 
-*Nginx* 是一個高效能的開源 Web 伺服器與反向代理，能處理 HTTP、HTTPS 以及 TCP/UDP 協議。
+**Nginx** 是一個高效能的開源 Web 伺服器與反向代理，能處理 HTTP、HTTPS 以及 TCP/UDP 協議。
 
 用途： 
 
@@ -32,7 +32,7 @@ ex: 輸入 which python 會顯示 Python 執行檔的路徑。
 
 特性： 非同步事件驅動架構、低記憶體佔用、負載平衡等
 
-*pm2* 是 Node.js 應用程式的進程管理工具
+**pm2** 是 Node.js 應用程式的進程管理工具
 
 用途：
 
@@ -42,7 +42,7 @@ ex: 輸入 which python 會顯示 Python 執行檔的路徑。
 
 如果不用*pm2*我會使用*forever*
 
-*forever*
+**forever**
 
 用途：
 
