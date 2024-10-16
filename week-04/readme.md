@@ -113,7 +113,18 @@ server {
 
 **不用sudo**: 操作僅影響到用戶自己的檔案或應用
 
-**9. Nginx 的 Log 檔案在哪裡？你怎麼找到的？怎麼看 Nginx 的 Log？
+**9. Nginx 的 Log 檔案在哪裡**
+
+/var/log/nginx/ 目錄下，包含兩個主要檔案：
+
+- access.log：記錄所有進入的 HTTP 請求。
+- error.log：記錄錯誤訊息。
+
+sudo tail -f /var/log/nginx/access.log : 查看訪問日誌
+sudo tail -f /var/log/nginx/error.log : 查看錯誤日誌
+
+查閱 Nginx 配置檔案 /etc/nginx/nginx.conf 的 access_log 和 error_log 指令，可確認log 檔案的位置。
+
 10. 其他你在過程中遭遇的問題，有找到解答就記錄下來，沒有可以把問題放著，下次上課討論。如果沒有遇到任何問題，也可以回答「無」
 
 
