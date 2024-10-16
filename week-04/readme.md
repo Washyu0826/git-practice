@@ -18,11 +18,11 @@ ex: 執行 ls，系統會在 $PATH 定義的目錄中找尋 ls 的程式。
 
 ex: 輸入 which python 會顯示 Python 執行檔的路徑。
 
-### 我的 public IP : 3.106.170.238
+## 我的 public IP : 3.106.170.238
 
-**2. Instance type: 指的是雲端 instance 的硬體配置（ex: CPU、記憶體、儲存空間、網路能力）**
+### **2. Instance type: 指的是雲端 instance 的硬體配置（ex: CPU、記憶體、儲存空間、網路能力）**
 
-**3. Nginx: 是一個高效能的開源 Web 伺服器與反向代理，能處理 HTTP、HTTPS 以及 TCP/UDP 協議**
+### **3. Nginx: 是一個高效能的開源 Web 伺服器與反向代理，能處理 HTTP、HTTPS 以及 TCP/UDP 協議**
 
 **用途**： 
 
@@ -32,7 +32,7 @@ ex: 輸入 which python 會顯示 Python 執行檔的路徑。
 
 **特性**： 非同步事件驅動架構、低記憶體佔用、負載平衡等
 
-**4. pm2: 是 Node.js 應用程式的進程管理工具**
+### **4. pm2: 是 Node.js 應用程式的進程管理工具**
 
 **用途**：
 
@@ -52,7 +52,7 @@ ex: 輸入 which python 會顯示 Python 執行檔的路徑。
 
 forever 適合簡單的 Node.js 應用程式，不需要太多的進程管理功能，安裝與使用都相對簡單。
 
-**5. proxy: 是在客戶端和伺服器之間充當中介的機制**
+### **5. proxy: 是在客戶端和伺服器之間充當中介的機制**
 
 **為什麽要透過 Nginx 來 proxy 到 Express 開發的 Web Server?**
 
@@ -73,7 +73,7 @@ forever 適合簡單的 Node.js 應用程式，不需要太多的進程管理功
 
 **正向代理**：保護客戶端，幫助它們隱藏身份、繞過網絡限制，或作為中介來訪問目標伺服器。
 
-**6. Nginx設定檔**
+### **6. Nginx設定檔**
 
 server {
 
@@ -95,7 +95,7 @@ server {
     }
 }
 
-**7. Security Group:是一組防火牆規則，用來控制虛擬機、EC2 等雲端資源的流量，可以定義允許哪些 IP 和網路協議（如 HTTP, SSH）進入和離開伺服器。**
+### **7. Security Group:是一組防火牆規則，用來控制虛擬機、EC2 等雲端資源的流量，可以定義允許哪些 IP 和網路協議（如 HTTP, SSH）進入和離開伺服器。**
 
 **用途**:
 
@@ -107,13 +107,13 @@ server {
 2. 限制 SSH 訪問為特定 IP，或僅開放 HTTP/HTTPS 端口供外部訪問
 3. 定期審查並更新安全群組以符合最小權限原則
 
-**8. sudo: "superuser do" 的縮寫，用來以 root 權限執行某些命令。**
+### **8. sudo: "superuser do" 的縮寫，用來以 root 權限執行某些命令。**
 
 **加上sudo**: 需要使用更高的權限 ex:修改系統檔案或安裝軟體
 
 **不用sudo**: 操作僅影響到用戶自己的檔案或應用
 
-**9. Nginx 的 Log 檔案在哪裡**
+### **9. Nginx 的 Log 檔案在哪裡**
 
 /var/log/nginx/ 目錄下，包含兩個主要檔案：
 
@@ -125,11 +125,11 @@ sudo tail -f /var/log/nginx/error.log : 查看錯誤日誌
 
 查閱 Nginx 配置檔案 /etc/nginx/nginx.conf 的 access_log 和 error_log 指令，可確認log 檔案的位置。
 
-**10. 遭遇的問題**
+### **10. 遭遇的問題**
 
 有遺漏步驟，導致連線失敗，但審視問題重新來過注意每個細節就成功了
 
-**11. 參考資料**
+### **11. 參考資料**
 
 - https://ithelp.ithome.com.tw/articles/10221704
 - https://mazhen.tech/p/nginx%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86%E9%85%8D%E7%BD%AE/
