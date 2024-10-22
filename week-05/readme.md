@@ -1,3 +1,5 @@
+### 你在哪裡購買網域的 ?
+GoDaddy
 ### 3.DNS 的 A Record 是什麼？ 
 A Record 將域名映射到 IP 地址。
 ### 4.DNS 的 NS Record 是什麼？
