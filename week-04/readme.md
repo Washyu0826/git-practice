@@ -18,7 +18,7 @@ ex: 執行 ls，系統會在 $PATH 定義的目錄中找尋 ls 的程式。
 
 ex: 輸入 which python 會顯示 Python 執行檔的路徑。
 
-## 我的 public IP : 52.87.214.70
+## 1. 我的 public IP : 52.87.214.70
 
 ### **2. Instance type: 指的是雲端 instance 的硬體配置（ex: CPU、記憶體、儲存空間、網路能力）**
 
