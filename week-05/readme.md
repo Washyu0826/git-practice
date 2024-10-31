@@ -1,4 +1,5 @@
-### 1.我的網域 https://www.hsien0826.com/
+### 1.我的網域
+https://www.hsien0826.com/
 ### 2.你在哪裡購買網域的 ?
 GoDaddy
 ### 3.DNS 的 A Record 是什麼？ 
