@@ -128,10 +128,8 @@ curl localhost
 sudo nano /var/www/html/index.nginx-debian.html
 ```
 
-至此，所有問題已解決。
+所有問題已解決。
 
 ---
 
-### 備註
-請定期備份 NGINX 配置檔案，並在修改前使用 `nginx -t` 測試語法，以避免服務中斷。
 
